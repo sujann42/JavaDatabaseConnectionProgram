@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class DatabaseConnection {
 
 	public static void main(String[] args) {
-		String url = "jdbc:mysql://localhost:3306/University";
-		String username = "****";
-		String password = "****";
+		String url = "jdbc:mysql://localhost:3306/University?useSSL=false";
+		String username = "root";
+		String password = "root";
 		
 		try {
 			//Class.forName("com.mysql.cj.jdbc.Driver");//For any other versions of MYSQL
